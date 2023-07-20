@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-family: 'Bruno Ace SC', cursive;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 24px;
+  color: inherit;
+  &:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+}
